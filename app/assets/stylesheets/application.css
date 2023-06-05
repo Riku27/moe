@@ -32,7 +32,8 @@ header {
 }
 
 header .heading {
-    font-size: 32px;
+    font-size: 40px;
+    font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
 
 .main-visual {
@@ -53,11 +54,13 @@ header .heading {
 
 .main-visual-text {
     color: #fff;
+    font-size: 20px;
 }
 
 .main-visual-name {
     margin-top: 50px;
     color: #fff;
+    font-size: 20px;
 }
 
 main {
@@ -69,8 +72,6 @@ main {
     justify-content: center;
     
 }
-
-
 
 .main-text {
     font-size: 35px;
@@ -87,4 +88,25 @@ footer {
 
 .footer-text {
     color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+ 
+  .main-text {
+     width: 100%;
+     font-size: 111%;
+  }
+  
 }
